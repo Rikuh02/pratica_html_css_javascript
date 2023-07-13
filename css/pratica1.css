@@ -1,0 +1,72 @@
+*{
+
+    background-color: lightslategrey;
+    padding: 0;
+    margin: 0;
+
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+button{
+
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+div{
+
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+    border: 4px solid rgb(46, 86, 145);
+   
+}
+
+div:hover{
+
+    border-color: brown;
+
+}
+
+.curso{
+    background-color: rgb(220, 245, 242);
+    color: black;
+}
+
+.selecionado{
+    background-color: rgb(179, 125, 125) !important;
+    color: rgb(70, 30, 107) !important;
+    border-color: rgb(84, 124, 163) !important; /*! important serve para troca os elemntos comuns da ID, Class, ou tag usando o javascript*/
+}
+
+.caixa{
+
+    border: 4px solid rgb(46, 86, 145);
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* para colocar um item do lado do outro*/
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+
+}
