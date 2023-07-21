@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pratica2.css">
+    <title>Criar novos elementos e adicionar ou remover no DOM</title>
+</head>
+<body>
+    <main> 
+
+        <div class="caixa" id="funcionalidades"> 
+            <div id="novo_curso" class="funcionalidade">
+                <label>Nome do Curso</label>
+                <input type="text" class="nome_do_curso" id="nome_curso">
+                <button class="btn" id="adicionar_antes">Adicionar antes</button>
+                <button class="btn" id="adicionar_depois">Adicionar depois</button>
+            </div>
+            <div id="caixa_remover" class="funcionalidade">
+                <button class="btn" id="remover">Remover Selecionado</button>
+            </div>
+            <div id="caixa_selecionar" class="funcionalidade">
+                <button class="btn" id="selecionado">Cursos Selecionados</button>
+            </div>
+        </div> 
+
+        <div class="caixa" id="cursos_opcoes"> 
+            <!--os cursos são adicionados por javaScript-->
+        </div> 
+    
+    </main>
+    <script src="javascript/pratica2.js"></script>
+</body>
+</html>
