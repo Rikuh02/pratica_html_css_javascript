@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: lightslategrey;
+    border: none;
+
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+button{
+    background-color: blue;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.funcionalidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+   
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#funcionalidades input{
+    margin:10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+label{
+    background: none;
+}
+
+.comando{
+    background: none;
+}
+
+.caixa{
+    border: 4px solid #000;
+    border-radius: 4px;
+    display: flex;
+    height: 500px;
+    width:300px;
+    background-color: lightgrey;
+    flex-direction: column; /*mantem os itens emcima um do outro*/
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+div:hover{
+    border-color: brown;
+}
+
+.cursos{
+    background-color: rgb(220, 245, 242);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px;
+    border: 4px solid rgb(46, 86, 145);
+}
+
+.destaque{
+    background-color: rgb(117, 80, 80) !important;
+    color: rgb(70, 30, 107) !important;
+    border-color: rgb(84, 124, 163) !important; /*! important serve para troca os elemntos comuns da ID, Class, ou tag usando o javascript*/
+}
+
+.btn_lixeira{
+    height: 25px;
+    background: none;
+    cursor: pointer;
+}
